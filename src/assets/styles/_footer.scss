@@ -1,5 +1,6 @@
 footer {
-    background: var(--color-primary);
+    // background: var(--color-primary);
+  background-image: url(../src/assets/bg-texture.png);
     padding: 3rem 0 1rem;
     text-align: center;
     font-size: 0.9rem;
@@ -23,6 +24,7 @@ footer a {
     justify-content: center;
     gap: 2rem;
     margin: 0 auto 3rem;
+    color: var(--color-primary);
 }
 
 .footer__socials {

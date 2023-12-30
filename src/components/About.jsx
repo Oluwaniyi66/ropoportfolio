@@ -21,26 +21,25 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ Years working experience</small>
-            </article>
-
-            <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>100+ worldwide</small>
+              <small>2+ Years working experience</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>30+ Projects</small>
+              <small>4+ Projects</small>
             </article>
           </div>
 
           <p>
-            Loremit laudantium ullam! Nulla consequatur eos ex nihil, blanditiis
-            odio alias hic consectetur velit sequi. Rerum repudiandae explicabo
-            ab impedit quaerat quo, dolorum praesentium ut.
+            Hello! I'm Ropo Oluwaniyi, a passionate web developer driven by the
+            artistry and functionality of coding. With hands-on experience, I
+            craft responsive, user-centric websites that merge innovation with
+            seamless user experiences.
+            <br />
+            I'm also a DevOps Engineer enthusiast dedicated to orchestrating
+            seamless software delivery pipelines and optimizing infrastructure
+            performance.
           </p>
 
           <a href="#contact" className="btn btn-primary">

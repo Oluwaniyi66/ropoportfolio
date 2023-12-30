@@ -12,10 +12,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      "YOUR_SERVICE_ID",
-      "YOUR_TEMPLATE_ID",
+      "service_lcs698f",
+      "template_7p0f8wz",
       form.current,
-      "YOUR_PUBLIC_KEY"
+      "lGhpRfJNpS-EpF5BD"
     );
     e.target.reset();
   };
@@ -30,24 +30,24 @@ const Contact = () => {
           <article className="contact__option">
             <IoMailOutline className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>dummyemail@gmail.com</h5>
-            <a href="mailto:dummyemail@gmail.com" target="_blank">
-              dummyemail@gmail.com
+            <h5>Send me a mail</h5>
+            <a href="mailto:oluwaniyiropo11@gmail.com" target="_blank">
+              oluwaniyiropo11@gmail.com
             </a>
           </article>
           <article className="contact__option">
             <FaLinkedinIn className="contact__option-icon" />
             <h4>LinkedIn</h4>
-            <h5>Ropo my guy</h5>
-            <a href="https://m.me/ropo" target="_blank">
+            <h5>Oluwaniyi Ropo</h5>
+            <a href="http://www.linkedin.com/in/oluwaniyiropo" target="_blank">
               Talk to me
             </a>
           </article>
           <article className="contact__option">
             <RiTwitterXLine className="contact__option-icon" />
             <h4>Twitter</h4>
-            <h5>dummyemail@gmail.com</h5>
-            <a href="https://api.whatsapp.com/send?phone=+234" target="_blank">
+            <h5>@oluwaniyiropo</h5>
+            <a href="https://twitter.com/oluwaniyiropo" target="_blank">
               Direct Message
             </a>
           </article>

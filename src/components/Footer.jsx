@@ -1,6 +1,6 @@
 import React from "react";
-import { FaFacebookF } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { IoLogoGithub } from "react-icons/io";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
@@ -32,14 +32,14 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="www.facebook.com">
-          <FaFacebookF />
+        <a href="http://www.linkedin.com/in/oluwaniyiropo">
+          <FaLinkedinIn />
         </a>
-        <a href="www.twitter.com">
+        <a href="https://twitter.com/oluwaniyiropo">
           <FaXTwitter />
         </a>
-        <a href="www.instagram.com">
-          <FaInstagram />
+        <a href="https://github.com/Oluwaniyi66">
+          <IoLogoGithub />
         </a>
       </div>
 

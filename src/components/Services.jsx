@@ -8,34 +8,6 @@ const Services = () => {
       <h2>My Services</h2>
 
       <div className="container services__container">
-        <article className="service">
-          <div className="services__head">
-            <h3>UI/UX Design</h3>
-          </div>
-
-          <ul className="service__list">
-            <li>
-              <RiCheckFill className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              <RiCheckFill className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              <RiCheckFill className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              <RiCheckFill className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              <RiCheckFill className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            </li>
-          </ul>
-        </article>
 
         <article className="service">
           <div className="services__head">
