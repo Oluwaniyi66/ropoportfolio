@@ -1,7 +1,7 @@
 .about__container {
   display: grid;
-  grid-template-columns: 35% 50%;
-  gap: 15%;
+  grid-template-columns: 50% 50%;
+  gap: 0%;
 }
 
 .about__me {
@@ -14,8 +14,9 @@
     var(--color-primary),
     transparent
   );
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  // place-items: center;
 }
 
 .about__me-image {
@@ -31,7 +32,7 @@
 
 .about__cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
