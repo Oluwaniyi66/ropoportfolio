@@ -12,22 +12,30 @@ const Footer = () => {
 
       <ul className="permalinks">
         <li>
-          <a href="#">Home</a>
+          <a className="mytags" href="#">
+            Home
+          </a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a className="mytags" href="#about">
+            About
+          </a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a className="mytags" href="#experience">
+            Experience
+          </a>
         </li>
         <li>
-          <a href="#services">Service</a>
+          <a className="mytags" href="#services">
+            Service
+          </a>
         </li>
         <li>
-          <a href="#portfolio"></a>
+          <a className="mytags" href="#portfolio"></a>
         </li>
         <li>
-          <a href="#testimonials"></a>
+          <a className="mytags" href="#testimonials"></a>
         </li>
       </ul>
 
