@@ -5,10 +5,9 @@ const Services = () => {
   return (
     <section id="services">
       <h5>What I Offer</h5>
-      <h2>My Services</h2>
+      <h2>My Stack</h2>
 
       <div className="container services__container">
-
         <article className="service">
           <div className="services__head">
             <h3>Web Development</h3>
@@ -17,23 +16,25 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+              <p>I am a reactJs Developer</p>
             </li>
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+              <p>HTML CSS JAVASCRIPT</p>
             </li>
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+              <p>React JS, Next JS, </p>
             </li>
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+              <p>
+                React-Query, Redux 
+              </p>
             </li>
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+              <p>TailWind and Material UI</p>
             </li>
           </ul>
         </article>
@@ -46,23 +47,23 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+              <p>Kubernetes</p>
             </li>
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+              <p>Terraform</p>
             </li>
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+              <p>Jenkins</p>
             </li>
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+              <p>AWS and Azure</p>
             </li>
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+              <p>Python</p>
             </li>
           </ul>
         </article>
