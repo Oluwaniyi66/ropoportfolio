@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <section id="services">
       <h5>What I Offer</h5>
-      <h2>My Stack</h2>
+      <h2>My Services</h2>
 
       <div className="container services__container">
         <article className="service">
@@ -16,25 +16,26 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>I am a reactJs Developer</p>
+              <p>Responsive Web Design</p>
             </li>
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>HTML CSS JAVASCRIPT</p>
+              <p>Custom Website Development</p>
             </li>
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>React JS, Next JS, </p>
+              <p>Web Application Development</p>
+            </li>
+            <li>
+              <RiCheckFill className="service__list-icon" />
+              <p>Frontend Optimization and Support</p>
             </li>
             <li>
               <RiCheckFill className="service__list-icon" />
               <p>
-                React-Query, Redux 
+                E-commerce Website Development SEO-Friendly Web Development
+                Integration with Third-Party Services
               </p>
-            </li>
-            <li>
-              <RiCheckFill className="service__list-icon" />
-              <p>TailWind and Material UI</p>
             </li>
           </ul>
         </article>
@@ -47,23 +48,30 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>Kubernetes</p>
+              <p>
+                Continuous Integration and Continuous Deployment (CI/CD)
+                Infrastructure as Code (IaC)
+                Cloud Infrastructure Management
+              </p>
             </li>
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>Terraform</p>
+              <p>
+                Containerization and Orchestration
+                Performance Tuning and Optimization
+              </p>
             </li>
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>Jenkins</p>
+              <p>Disaster Recovery and Backup Strategies</p>
             </li>
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>AWS and Azure</p>
+              <p>System Administration and Support Scripting and Automation</p>
             </li>
             <li>
               <RiCheckFill className="service__list-icon" />
-              <p>Python</p>
+              <p>Database Management and Optimization</p>
             </li>
           </ul>
         </article>
