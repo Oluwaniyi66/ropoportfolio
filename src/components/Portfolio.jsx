@@ -6,13 +6,6 @@ import IMG4 from "../assets/ecommerce.jpg";
 
 export const data = [
   {
-    id: 1,
-    image: IMG4,
-    title: "E-commerce project",
-    github: "https://github.com/Oluwaniyi66/flexreactarena",
-    demo: "https://flexreactarena.com/",
-  },
-  {
     id: 2,
     image: IMG1,
     title: "Oyo state data managgement solution",
@@ -32,6 +25,13 @@ export const data = [
     title: "Kwara state e-procurement",
     github: "https://github.com/Prunedge-Dev-Team/web-kwara-eprocurement",
     demo: "https://kwppa.kwarastate.gov.ng/",
+  },
+  {
+    id: 1,
+    image: IMG4,
+    title: "E-commerce project",
+    github: "https://github.com/Oluwaniyi66/flexreactarena",
+    demo: "https://flexreactarena.com/",
   },
 ];
 
