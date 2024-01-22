@@ -2,24 +2,32 @@ import React from "react";
 import IMG1 from "../assets/oyo.jpg";
 import IMG2 from "../assets/delta.jpg";
 import IMG3 from "../assets/kwara.jpg";
+import IMG4 from "../assets/ecommerce.jpg";
 
-const data = [
+export const data = [
   {
     id: 1,
+    image: IMG4,
+    title: "E-commerce project",
+    github: "https://github.com/Oluwaniyi66/flexreactarena",
+    demo: "https://flexreactarena.com/",
+  },
+  {
+    id: 2,
     image: IMG1,
     title: "Oyo state data managgement solution",
     github: "https://github.com/Prunedge-Dev-Team/mdm-web",
     demo: "https://smartcard.oyostate.gov.ng/verify",
   },
   {
-    id: 2,
+    id: 3,
     image: IMG2,
     title: "Delta state e-procurement platform",
     github: "https://github.com/Prunedge-Dev-Team/eprocurement-delta-web",
     demo: "https://eprocurement.deltappc.dl.gov.ng/",
   },
   {
-    id: 3,
+    id: 4,
     image: IMG3,
     title: "Kwara state e-procurement",
     github: "https://github.com/Prunedge-Dev-Team/web-kwara-eprocurement",

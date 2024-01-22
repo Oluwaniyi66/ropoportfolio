@@ -3,6 +3,8 @@ import React from "react";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { data } from "./Portfolio";
+
 
 const About = () => {
   return (
@@ -23,7 +25,7 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>4+ Projects</small>
+              <small>{ data?.length} Projects</small>
             </article>
           </div>
 
